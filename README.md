@@ -1,62 +1,99 @@
-# Desvelando la Brecha: Un Viaje a Través de Datos y Desigualdad en EE.UU. (1988-2023) 🇺🇸
+# 🏆 Desvelando la Brecha: Un Viaje a Través de Datos y Desigualdad en EE.UU. (1988-2023) 🇺🇸  
 
-## ¡Bienvenido a nuestro proyecto! 
+¡Bienvenido a nuestro proyecto!  
 
-Nos hemos sumergido en las profundidades de los datos  para iluminar las sombras de la desigualdad de género y racial en los Estados Unidos 🇺🇸, desde 1988 hasta 2023. Usando Python  para limpiar y preparar los datos, y Power BI  para dar vida a las visualizaciones, nuestro objetivo es hacer visible lo invisible.
+Nos hemos sumergido en las profundidades de los datos para iluminar las sombras de la **desigualdad de género y racial** en los Estados Unidos 🇺🇸, desde 1988 hasta 2023.  
+Usando **Python** para limpiar y preparar los datos, y **Power BI** para dar vida a las visualizaciones, nuestro objetivo es **hacer visible lo invisible**.  
 
-## ️ Herramientas Utilizadas
+---
 
-* **Python**: Nuestro fiel compañero  para la limpieza y transformación de datos.
-* **Power BI**: El lienzo  donde los datos cobran vida a través de visualizaciones impactantes.
+## 📌 Contenido  
 
-##  Ejemplos de Visualizaciones
+📂 **Archivos incluidos**  
+- 📁 `files/glassdoorsample.csv` →  Dataset con información detallada sobre salarios del año 2020  
+- 📁 `files/race_gender_salaries.csv` → Dataset con la evolución de salarios  
+- 📊 `powerbi/proyecto_Mujeres.pbix` → Archivo de Power BI con los reportes  
+- 📸 `image/` → Capturas de los dashboards  
 
-### Brecha Salarial de Género a lo largo del Tiempo ⏳
+📜 **Secciones del análisis**  
+1. 📈 **Evolución Global**  
+2. 🎭 **Brecha Salarial por Raza**  
+3. 💰 **Distribución de Salarios en 2020**  
+4. 🏢 **Puestos de Trabajo y Salarios**  
+5. 📉 **Conclusiones**  
 
-![Brecha Salarial de Género](URL_DE_TU_GRAFICA_BRECHA_SALARIAL_GENERO)
+---
 
-Esta gráfica muestra cómo la brecha salarial de género ha evolucionado a lo largo de los años. ¿Hemos avanzado o seguimos estancados? ‍♀️‍♂️
+## 📊 Ejemplos de Visualizaciones  
 
-### Desigualdad Salarial por Raza y Género 
+### 📈 Evolución Global ⏳  
 
-![Desigualdad Salarial por Raza y Género](URL_DE_TU_GRAFICA_DESIGUALDAD_SALARIAL_RAZA_GENERO)
+#### **Brecha Salarial de Género**  
+Esta gráfica muestra cómo la **brecha salarial de género** ha evolucionado a lo largo de los años.  
+¿Hemos avanzado o seguimos estancados? ⚖️  
 
-Aquí, exploramos cómo la intersección de raza y género amplifica la desigualdad salarial. ¿Qué historias cuentan estos datos? 
+![Brecha Salarial](./image/genero.png)  
 
-### Distribución de Empleo por Género en Diferentes Sectores 
+---
 
-![Distribución de Empleo por Género](URL_DE_TU_GRAFICA_DISTRIBUCION_EMPLEO_GENERO)
+### 🎭 Desigualdad Salarial por Raza y Género  
+Exploramos cómo la **intersección de raza y género** amplifica la desigualdad salarial.  
+¿Qué historias cuentan estos datos?  
 
-Este gráfico revela la distribución de empleo por género en diversos sectores. ¿Dónde encontramos la mayor disparidad? ️‍♀️️‍♂️
+![Desigualdad Racial](./image/raza-genero.png)  
 
-##  Estructura del Proyecto
-├── data/
-│   ├── raw/ # Datos originales sin procesar
-│   ├── processed/ # Datos limpios y transformados ✨
-├── notebooks/ # Notebooks de Jupyter con el análisis y visualizaciones
-├── visualizations/ # Visualizaciones generadas con Power BI ️
-├── scripts/ # Scripts de Python para limpieza y procesamiento de datos
-├── README.md
-##  Cómo Empezar
+---
 
-1.  Clona este repositorio: `git clone [URL_DEL_REPOSITORIO]`
-2.  Navega al directorio del proyecto: `cd nombre-del-proyecto`
-3.  Instala las dependencias: `pip install -r requirements.txt` (si tienes un archivo de requerimientos)
-4.  Abre los notebooks en `notebooks/` para explorar el análisis y las visualizaciones.
+### 🏢 Distribución de Empleo por Género  
+Este gráfico revela la **distribución de empleo por género en diversos sectores**.  
+¿Dónde encontramos la mayor disparidad? 👩‍💼👨‍💼  
 
-##  Contribuciones
+![Distribución Empleo](./image/Trabajo.png)  
 
-¡Nos encantaría contar con tu ayuda! Si encuentras errores , tienes ideas para mejorar el análisis o quieres añadir nuevas visualizaciones , ¡no dudes en abrir un issue o enviar un pull request!
+---
 
-##  Licencia
+## 🏆 Principales Hallazgos  
+✅ **La brecha salarial se ha reducido, pero sigue presente en todas las razas.**  
+✅ **Las mujeres en tecnología y finanzas enfrentan mayor desigualdad.**  
+✅ **Algunos sectores presentan menor disparidad, como logística.**  
 
-[Añade aquí la licencia de tu proyecto]
+---
 
-##  Contacto
+## ✍ ¿Cómo explorar el reporte?  
 
-Si tienes alguna pregunta o comentario, ¡no dudes en contactarnos!
+1. **Descarga** el archivo `proyecto_Mujeres.pbix`.  
 
-* [Tu Nombre] - [Tu Correo Electrónico] 
-* [Nombre de tu Compañero/a] - [Su Correo Electrónico] 
+2. **Ábrelo** con Power BI Desktop.  
 
-¡Esperamos que este proyecto sea una herramienta útil para comprender y combatir la desigualdad! ✊
+3. **Explora** las pestañas y gráficos interactivos.  
+
+---
+
+## 🚀 Cómo Usar Este Proyecto  
+
+### 🔧 Requisitos  
+🟢 **Power BI Desktop** ([Descargar aquí](https://powerbi.microsoft.com/))  
+🟢 **Python 3.x** *(opcional, para procesamiento de datos)*  
+
+### ▶️ Instrucciones  
+
+1. Clona este repositorio:  
+
+   ```bash
+   git clone https://github.com/eleonorasoneira/Proyecto_PowerBI.git
+
+Abre proyecto_Mujeres.pbix en Power BI.
+📢 Contribuciones
+👥 ¡Nos encantaría contar con tu ayuda!
+Si encuentras errores, tienes ideas para mejorar el análisis o quieres añadir nuevas visualizaciones,
+¡no dudes en abrir un issue o enviar un pull request!
+
+📬 Contacto
+Si tienes alguna pregunta o comentario, ¡contáctanos! 📩
+
+👩‍💻 Equipo del Proyecto:
+
+Elena Alique
+Katherine Gortz
+Eleonora Soneira
+✨ ¡Esperamos que este proyecto sea una herramienta útil para comprender y combatir la desigualdad! ✊
