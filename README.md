@@ -14,6 +14,8 @@ Usando **Python** para limpiar y preparar los datos, y **Power BI** para dar vid
 - 📁 `files/race_gender_salaries.csv` → Dataset con la evolución de salarios  
 - 📊 `powerbi/proyecto_Mujeres.pbix` → Archivo de Power BI con los reportes  
 - 📸 `image/` → Capturas de los dashboards  
+- 🌎 https://www.kaggle.com/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap  → Fuente de nuestros datos
+- 🌎 https://www.kaggle.com/datasets/spingere/us-salary-by-race-and-sex  → Fuente de nuestros datos
 
 📜 **Secciones del análisis**  
 1. 📈 **Evolución Global**  
